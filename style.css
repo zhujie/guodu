@@ -1,23 +1,21 @@
 *{
-
+	margin: 0;
+	padding: 0;
 }
-
-#header{
+body{
+	background: url(images/home_bg.png) repeat-x;
+}
+#homepage{
 	margin: 0 auto;
 	padding: 0;
 	width: 1000px;
-	height: 92px;
+}
+#header{
+	height: 91px;
 }
 
 #menu {
 	height: 42px;
-	background:#d03012;
-}
-
-#menu_box{
-	margin: 0 auto;
-	padding: 0;
-	width: 1000px;
 }
 
 #menu ul{
@@ -37,9 +35,6 @@
 }
 
 #lightbox{
-	margin: 0 auto;
-	padding: 0;
-	width: 1000px;
 	height:429px;
 	background-image: url(images/lightbox.png);
 }
