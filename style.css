@@ -3,12 +3,17 @@
 	padding: 0;
 }
 body{
+	font-family: 宋体b8b\4f53,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	color: #666666;
 	background: url(images/home_bg.png) repeat-x;
+
 }
 #homepage{
 	margin: 0 auto;
 	padding: 0;
 	width: 1000px;
+	height: 1061px;
 }
 #header{
 	height: 91px;
@@ -51,33 +56,50 @@ body{
 
 }
 
+#content p{
+	display: block;
+	text-indent: 2em;
+	line-height: 20px;
+	font-size: 12px;
+}
 #content #leftbox{
 	float: left;
 	width: 260px;
-	height:100px;
-	background: #b9b9b9;
 }
 
 #content #rightbox{
 	float: right;
 	width: 429px;
-	height:100px;
 	background: #b9b9b9;
 }
 
-#content .container{
-	margin: 0;
-	padding: 7px 0 13px 15px;
-	background: #ffffff;
+#homepage #container{
+	padding: 7px 15px 13px 15px;
+	border: 1px solid #b9b9b9;
+	border-top-color: #ffffff;
 }
+
+.left_container{
+	background-image: url(images/left_bg.jpg) no-repeat;
+	background-position: bottom;
+}
+
+/*#content #container{
+	margin: 0 1px 1px 1px;
+	padding: 7px 15px 13px 15px;
+	background: #ffffff;
+}*/
+
 
 .home_aboutus{
 	height:20px;
 	background:url(images/home_aboutus.png) no-repeat;
+	margin-bottom:18px;
 }
 .home_news{
 	height:20px;
 	background:url(images/home_news.png) no-repeat;
+	margin-bottom:18px;
 }
 
 .boxtitle{
