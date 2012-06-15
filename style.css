@@ -65,31 +65,25 @@ body{
 #content #leftbox{
 	float: left;
 	width: 260px;
+	background: url(images/left_bg.jpg) no-repeat;
+	background-position: bottom;
 }
 
 #content #rightbox{
 	float: right;
 	width: 429px;
-	background: #b9b9b9;
 }
 
 #homepage #container{
 	padding: 7px 15px 13px 15px;
 	border: 1px solid #b9b9b9;
-	border-top-color: #ffffff;
+	border-top-style: none;
 }
 
 .left_container{
 	background-image: url(images/left_bg.jpg) no-repeat;
 	background-position: bottom;
 }
-
-/*#content #container{
-	margin: 0 1px 1px 1px;
-	padding: 7px 15px 13px 15px;
-	background: #ffffff;
-}*/
-
 
 .home_aboutus{
 	height:20px;
@@ -106,10 +100,14 @@ body{
 	margin: 0;
 	padding: 0;
 	height: 3px;
+	width: 100%;
+	background-color: #b9b9b9;
+}
+.redline{
+	height: 3px;
 	width: 85px;
 	background: url(images/boxtitle.png) no-repeat; 
 }
-
 #rightside{
 	float: right;
 	width: 278px;
