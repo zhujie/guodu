@@ -1,23 +1,26 @@
 *{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 宋体b8b\4f53,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	color: #666666;
+	background: url(images/home_bg.png) repeat-x;
 
 }
-
-#header{
+#homepage{
 	margin: 0 auto;
 	padding: 0;
 	width: 1000px;
-	height: 92px;
+	height: 1061px;
+}
+#header{
+	height: 91px;
 }
 
 #menu {
 	height: 42px;
-	background:#d03012;
-}
-
-#menu_box{
-	margin: 0 auto;
-	padding: 0;
-	width: 1000px;
 }
 
 #menu ul{
@@ -37,9 +40,6 @@
 }
 
 #lightbox{
-	margin: 0 auto;
-	padding: 0;
-	width: 1000px;
 	height:429px;
 	background-image: url(images/lightbox.png);
 }
@@ -56,43 +56,58 @@
 
 }
 
+#content p{
+	display: block;
+	text-indent: 2em;
+	line-height: 20px;
+	font-size: 12px;
+}
 #content #leftbox{
 	float: left;
 	width: 260px;
-	height:100px;
-	background: #b9b9b9;
+	background: url(images/left_bg.jpg) no-repeat;
+	background-position: bottom;
 }
 
 #content #rightbox{
 	float: right;
 	width: 429px;
-	height:100px;
-	background: #b9b9b9;
 }
 
-#content .container{
-	margin: 0;
-	padding: 7px 0 13px 15px;
-	background: #ffffff;
+#homepage #container{
+	padding: 7px 15px 13px 15px;
+	border: 1px solid #b9b9b9;
+	border-top-style: none;
+}
+
+.left_container{
+	background-image: url(images/left_bg.jpg) no-repeat;
+	background-position: bottom;
 }
 
 .home_aboutus{
 	height:20px;
 	background:url(images/home_aboutus.png) no-repeat;
+	margin-bottom:18px;
 }
 .home_news{
 	height:20px;
 	background:url(images/home_news.png) no-repeat;
+	margin-bottom:18px;
 }
 
 .boxtitle{
 	margin: 0;
 	padding: 0;
 	height: 3px;
+	width: 100%;
+	background-color: #b9b9b9;
+}
+.redline{
+	height: 3px;
 	width: 85px;
 	background: url(images/boxtitle.png) no-repeat; 
 }
-
 #rightside{
 	float: right;
 	width: 278px;
