@@ -6,17 +6,12 @@ body{
 	font-family: 宋体b8b\4f53,Arial,Helvetica,sans-serif;
 	font-size:12px;
 	color: #666666;
-	background: url(images/home_bg.png) repeat-x;
-
-}
-#homepage{
-	margin: 0 auto;
-	padding: 0;
-	width: 1000px;
-	height: 1061px;
 }
 /*------------start header style ----------------------------*/
 #header{
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
 	padding: 16px 0;
 	height: 60px;
 }
@@ -73,14 +68,16 @@ body{
 }
 /*------------start menu style ----------------------------*/
 #menu {
+	width:100%;
 	height: 41px;
+	background:#cc3300;
 }
-
 .topnav{
+	margin: 0 auto;
+	width:1000px;
 	height:41px;
 	list-style-type: none;
 	position: relative;
-
 }
 .topnav li span{
 	display: block;
@@ -88,7 +85,6 @@ body{
 	width:1px;
 	background:url(images/menu_span.png);
 }
-
 .topnav li{
 	line-height:40px;
 	float: left;
@@ -111,14 +107,15 @@ body{
 }
 /*-----------start lightbox-------------------------*/
 #lightbox{
+	margin:0 auto;
+	width:1000px;
 	height:429px;
 	background-image: url(images/lightbox.png);
 }
-
-
+/*--------------start homepage content contanier----------------------*/
 #main{
 	margin: 0 auto;
-	padding: 18px 0 0 0;
+	padding: 18px 0 16px 0;
 	width: 1000px;
 }
 #content{
@@ -154,7 +151,7 @@ body{
 	float: right;
 	width: 429px;
 }
-#homepage #container{
+#content #container{
 	height: 330px;
 	padding: 7px 15px 5px 15px;
 	border: 1px solid #b9b9b9;
@@ -210,7 +207,6 @@ body{
 	color: #7c7c7c;
 }
 #topnews p{
-/*	display: block;*/
 	padding-top:5px;
 	text-indent: 2em;
 	line-height: 18px;
@@ -244,7 +240,6 @@ body{
 }
 
 #newslist ul{
-/*	list-style-type: none;*/
 	display: inline;
 	width:397px;
 	overflow: hidden;
@@ -266,32 +261,94 @@ body{
 #newslist ul li a:hover{
 	text-decoration:underline;
 }
-
 /*------------start rightside--------------------------*/
 #rightside{
 	float: right;
 	width: 278px;
+	height: 346px;
 }
-
+#rightside img{
+	border:0 none;
+	width:276px;
+	height:66px;
+}
+.iconbox{
+	display: block;
+	margin-bottom:11px;
+	text-decoration:none;
+	border: 1px solid #b9b9b9;
+}
+#rightside ul{
+	display:inline;
+	list-style-type: none;
+	position:relative;
+	width: 278px;
+	height: 195px;
+}
+#rightside ul li{
+	float: left;
+}
+.wspace{
+	margin-right:10px;
+}
+.hspace{
+	margin:10px 10px 0 0;
+}
+#rightside ul li a{
+	display: block;
+	text-decoration: none;
+	width: 86px;
+	height: 90px;
+}
 .clear{
 	clear: both;
 	visibility: hidden;
 }
+a.icon1{
+	background: url(images/guodu_icons.png) 0 0;
+}
+a.icon1:hover{
+	background: url(images/guodu_icons.png) 0 -196px;
+}
+a.icon2{
+	background: url(images/guodu_icons.png) -96px 0;
+}
+a.icon2:hover{
+	background: url(images/guodu_icons.png) -96px -196px;
+}
+a.icon3{
+	background: url(images/guodu_icons.png) -191px 0;
+}
+a.icon3:hover{
+	background: url(images/guodu_icons.png) -191px -196px;
+}
+a.icon4{
+	background: url(images/guodu_icons.png) 0 -99px;
+}
+a.icon4:hover{
+	background: url(images/guodu_icons.png) 0 -295px;
+}
+a.icon5{
+	background: url(images/guodu_icons.png) -96px -99px;
+}
+a.icon5:hover{
+	background: url(images/guodu_icons.png) -96px -295px;
+}
 /*--------------start footer------------------*/
 #footer{
-	margin-top:14px;
-	text-align:center;
-	padding-top:2px;
 	color: #ffffff;
+	width:100%;
+	height: 105px;
+	padding-top:15px;
+	background:url(images/footer_bg.png) repeat-x;
 }
 #footer_container{
 	height: 89px;
 	width:408px;
-	margin: 15px auto 0 auto;
+	margin: 0 auto;
 	padding:15px 0 0 130px;
 	background: url(images/logo_footer.png) no-repeat;
 	text-align:left;
-
 }
 #footer_about{
 	display: block;
