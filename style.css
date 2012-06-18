@@ -389,3 +389,13 @@ a.icon5:hover{
 	display: block;
 	line-height:18px;
 }
+/*---------------------list page style--------------------*/
+#page_container{
+	margin: 0 auto;
+	padding: 0;
+	width:1000px;
+}
+#list_right_menu{
+	float: right;
+	width:234px;
+}
