@@ -389,3 +389,57 @@ a.icon5:hover{
 	display: block;
 	line-height:18px;
 }
+
+#page_head_picbox{
+	width:1000px;
+	height:210px; 
+	background: #000000;
+}
+/*--------------pic page-------------------------*/
+#message_page{
+	margin: 10px auto;
+	width: 1000px;	
+}
+#message_container{
+	margin:10px auto 0 auto;
+	background:;
+	border: 10px solid #f2f5f5;
+	width: 980px;
+}
+#message_box{
+	float: left;
+	padding:10px;
+	width: 550px;
+	border-right:1px dashed #ccc;
+}
+.feedback_message{
+	margin-bottom:10px;
+	color: #222;	
+	font-size:12px;
+}
+.feedback_message .name{
+	font-weight:bold;
+	padding-left:10px;
+	line-height:26px;
+	border: 1px dashed #d03012;
+	border-right:0 none;
+	border-left:0 none;
+	background: #FFE;
+}
+.feedback_message .reply{
+	padding:10px 0 0 30px;
+	color: #D75509;
+	line-height:20px;
+	background:url(images/icon_replay.gif) no-repeat 10px 13px
+}
+.sendbox{
+	float: right;
+	
+	
+}
+.sendbox .headpic{
+	width: 409px;
+	height:100px;
+	margin-top:10px;
+	background: url(images/message_board.jpg) no-repeat;
+}
