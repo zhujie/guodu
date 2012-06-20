@@ -542,7 +542,9 @@ a.icon5:hover{
 	width:706px;
 }
 #newslist_box ul li{
-	line-height:30px;
+	padding-top: 2px;
+	line-height:26px;
+	border-bottom: 1px dashed #f0f0f0;
 }
 #newslist_box ul li a{
 	text-decoration:none;
