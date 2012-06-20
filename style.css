@@ -389,17 +389,19 @@ a.icon5:hover{
 	display: block;
 	line-height:18px;
 }
-
+/*--------public page style---------------*/
 #page_head_picbox{
 	width:1000px;
 	height:210px; 
+	margin-bottom:20px;
 	background: #000000;
 }
-/*--------------pic page-------------------------*/
-#message_page{
+#page_container{
 	margin: 10px auto;
-	width: 1000px;	
+	padding: 0;
+	width:1000px;
 }
+/*--------------feedback page-------------------------*/
 #message_container{
 	margin:10px auto 0 auto;
 	background:;
@@ -442,4 +444,116 @@ a.icon5:hover{
 	height:100px;
 	margin-top:10px;
 	background: url(images/message_board.jpg) no-repeat;
+}
+.inputbox{
+	margin: 0 auto;
+	width: 369px;
+	padding: 20px;
+}
+.inputbox span{
+	/*font-weight: bold;*/
+	width:50px;
+}
+.inputelement{
+	margin-bottom: 20px;
+	width:369px;
+}
+ .textbox{
+ 	width:309px;
+	border: 1px solid #ccc;
+	height: 30px;
+	line-height: 24px;
+	color: #666;
+	padding: 3px 5px 0 5px;
+}
+.textareabox{
+	border: 5px solid #ccc;
+	width:353px;
+	padding:3px;
+	overflow-x:hidden;
+	overflow-y: visible;
+	line-height: 16px;
+}
+.feedback_submit{
+	float: right;
+	height: 30px;
+	width: 70px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+/*---------------------list page style--------------------*/
+#left_menu{
+	float: left;
+	width: 234px;
+}
+#left_menu ul{
+	list-style-type:none;
+	width:234px;
+}
+#left_menu li{
+	width: 234px;
+}
+.left_menu_head{
+	height: 44px;
+	background: url(images/left_menu.png);
+}
+.left_menu_head h1{
+	padding:13px 0 0 15px;
+	font-family: "微软雅黑",宋体b8b体4f53,Arial,Helvetica,sans-serif;
+	font-size:18px;
+	color:#ffffff;
+	font-weight:bold;
+}
+#left_menu a{
+	display: block;
+	padding: 12px 0 0 36px;
+	width:198px;
+	height:27px;
+	line-height: 15px;
+	font-family:  "微软雅黑"，宋体b8b\4f53,Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	text-decoration:none;
+	font-weight: bold;
+	color: #ffffff;
+	background:url(images/left_menu.png)  0 -85px;
+}
+#left_menu a:hover{
+	background:url(images/left_menu.png) 0 -45px;
+}
+.liselected{
+	background:url(images/left_menu.png) 0 -45px;
+}
+#right_container{
+	float: right;
+	width: 726px;
+	padding: 0 0 10px 30px;
+}
+#newslist_box h1{
+	line-height: 40px;
+	font-family:  "微软雅黑"，宋体b8b\4f53,Arial,Helvetica,sans-serif;
+	font-size: 18px;
+	text-decoration:none;
+	font-weight: bold;
+	color: #000;
+}
+#newslist_box ul{
+	padding-left:20px;
+	list-style-type:square;
+	width:706px;
+}
+#newslist_box ul li{
+	line-height:30px;
+}
+#newslist_box ul li a{
+	text-decoration:none;
+	color: #666;
+	font-size:14px;
+}
+#newslist_box ul li small{
+	float: right;
+	color: #333;
+	padding-right:10px;
+}
+#newslist_box ul li a:hover{
+	text-decoration:underline;
 }
