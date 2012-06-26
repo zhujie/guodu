@@ -404,15 +404,14 @@ a.icon5:hover{
 /*--------------feedback page-------------------------*/
 #message_container{
 	margin:10px auto 0 auto;
-	background:;
 	border: 10px solid #f2f5f5;
 	width: 980px;
 }
 #message_box{
 	float: left;
 	padding:10px;
-	width: 550px;
-	border-right:1px dashed #ccc;
+	width: 960px;
+/*	border-right:1px dashed #ccc;*/
 }
 .feedback_message{
 	margin-bottom:10px;
@@ -423,21 +422,19 @@ a.icon5:hover{
 	font-weight:bold;
 	padding-left:10px;
 	line-height:26px;
-	border: 1px dashed #d03012;
+	border: 1px dashed #ccc;
 	border-right:0 none;
 	border-left:0 none;
-	background: #FFE;
+	color: #fff;
+	background: #993333;
 }
 .feedback_message .reply{
 	padding:10px 0 0 30px;
-	color: #D75509;
+	color: #999;
 	line-height:20px;
 	background:url(images/icon_replay.gif) no-repeat 10px 13px
 }
-.sendbox{
-	float: right;
-	
-	
+.sendbox{	
 }
 .sendbox .headpic{
 	width: 409px;
@@ -475,7 +472,7 @@ a.icon5:hover{
 	line-height: 16px;
 }
 .feedback_submit{
-	float: right;
+/*	float: right;*/
 	height: 30px;
 	width: 70px;
 	border: 1px solid #ccc;
